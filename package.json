@@ -1,0 +1,17 @@
+{
+  "name": "tippiq-oss-account-manager",
+  "version": "1.0.1",
+  "license": "GPL-3.0-only",
+  "repository": "https://github.com/alliander/tippiq-oss-account-manager.git",
+  "private": true,
+  "scripts": {
+    "postinstall": "runny -c 'yarn'",
+    "build": "runny -c 'yarn build'",
+    "test": "runny -c 'yarn test'",
+    "cleanup": "runny -c 'yarn cleanup'",
+    "lint": "runny -c 'yarn lint'"
+  },
+  "dependencies": {
+    "runny": "1.4.2"
+  }
+}

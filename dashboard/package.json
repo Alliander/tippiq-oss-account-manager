@@ -1,0 +1,49 @@
+{
+  "name": "tippiq-oss-account-manager-dashboard",
+  "version": "0.0.1",
+  "license": "GPL-3.0-only",
+  "private": true,
+  "dependencies": {
+    "axios": "0.16.2",
+    "bootstrap": "3.3.7",
+    "classnames": "2.2.5",
+    "history": "4.6.1",
+    "jsonpath": "0.2.11",
+    "lodash": "4.17.4",
+    "prop-types": "15.5.10",
+    "react": "^15.5.4",
+    "react-bootstrap": "0.31.0",
+    "react-dom": "15.5.4",
+    "react-nbsp": "1.1.0",
+    "react-redux": "5.0.5",
+    "react-router": "4.1.1",
+    "react-router-dom": "4.1.1",
+    "react-router-redux": "next",
+    "redux": "3.6.0",
+    "redux-actions": "2.0.3",
+    "redux-form": "6.8.0",
+    "redux-logger": "3.0.6",
+    "redux-saga": "0.15.3",
+    "redux-saga-routines": "1.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "enzyme": "2.8.2",
+    "eslint": "4.1.1",
+    "react-scripts": "1.0.7",
+    "react-test-renderer": "15.5.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint src",
+    "cleanup": "rm -rf node_modules"
+  },
+  "proxy": "http://localhost:3017",
+  "eslintConfig": {
+    "extends": "react-app",
+    "root": true
+  }
+}

@@ -1,0 +1,5 @@
+De gebruiker met E-mail {{ user.email }} en Id {{ user.id }} is verwijderd uit de volgende databases:<br/>
+<br/>
+Tippiq Account: {{ results.id }}<br/>
+Tippiq Huis   : {{ results.places }}<br/>
+Tippiq Buurt  : {{ results.hood }}<br/>
