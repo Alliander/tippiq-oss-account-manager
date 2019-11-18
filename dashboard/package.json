@@ -9,7 +9,7 @@
     "classnames": "2.2.5",
     "history": "4.6.1",
     "jsonpath": "0.2.11",
-    "lodash": "4.17.4",
+    "lodash": "4.17.15",
     "prop-types": "15.5.10",
     "react": "^15.5.4",
     "react-bootstrap": "0.31.0",
